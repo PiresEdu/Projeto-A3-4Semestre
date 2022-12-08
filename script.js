@@ -216,21 +216,27 @@ function createElements(
     <h3>Velocidades</h3>
     <p>Velocidade Recalque: ${vRec}m/s</p>
     <p>Velocidade Sucção: ${vSuc}m/s</p>
+    <br>
     <h3>Moody</h3>
     <p>Moody Recalque: ${moodyRec}</p>
     <p>Moody Sucção: ${moodySuc}</p>
+    <br>
     <h3>Reynolds</h3>
     <p>Reynolds Recalque: ${rerec}</p>
     <p>Reynolds Sucção: ${resuc}</p>
+    <br>
     <h3>Haaland</h3>
     <p>Haaland Recalque: ${haalandrec}</p>
     <p>Haaland Sucção: ${haalandsuc}</p>
+    <br>
     <h3>Perda de Carga</h3>
     <p>Perda de Carga Recalque: ${perdaRec}m</p>
     <p>Perda de Carga Sucção: ${perdaSuc}m</p>
+    <br>
     <h3>Altura Manométrica</h3>
     <p>H<sub>bomba</sub>: ${alturaManometrica}m</p>
     <p>Para seleção da bomba utilizar H<sub>b</sub> = ${alturaManometrica}m e Q = ${vazaoConvertida}m³/h</p>
+    <br>
     <h3>Rendimento do Motor e Cavitação</h3>
     <p>Rendimento: ${rendimento}%</p>
     <p>NPSH<sub>disp</sub>: ${NPSH}m</p>
