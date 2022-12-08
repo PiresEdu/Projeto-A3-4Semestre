@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: hsl(226, 43%, 10%);
+    color: hsl(236, 100%, 87%);
+    font-family: 'Rubik', sans-serif;
+  }
+  .container {
+    min-width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+  }
+  .container-value {
+    display: flex;
+    grid-column: span 2;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50px;
+    background-color: hsl(235, 46%, 20%);
+    border: 2px solid white;
+    padding: 25px;
+  }
+  .constant {
+    border: 2px solid white;
+    padding: 5px;
+  }
+  aside {
+    background-color: hsl(235, 46%, 20%);
+    border: 2px solid white;
+    display: flex;
+    padding: 15px;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  label {
+    display: block;
+  }
+  .input-Q {
+    margin-top: 30px;
+  }
+  .input-Lsuc {
+    margin-top: 30px;
+  }
+  .input-Ksuc {
+    margin-top: 30px;
+  }
+  .input-Lrec {
+    margin-top: 30px;
+  }
+  .input-Krec {
+    margin-top: 30px;
+  }
+  .Watt {
+    margin-top: 30px;
+  }
+  .altura {
+    margin-top: 30px;
+  }
+  .calcular {
+    margin-top: 30px;
+  }
+  .result {
+    background-color: hsl(235, 46%, 20%);
+    min-height: 600px;
+    border: 2px solid white;
+    padding: 15px;
+  }
+  img {
+    display: none;
+  }
